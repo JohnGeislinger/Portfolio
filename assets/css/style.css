@@ -1,0 +1,96 @@
+/* 
+Color Palette:
+    #EAE7DC
+    #D8C3A5
+    #8E8D8A
+    #E98074
+    #E85A4F
+Font Types:
+    Title: font-family: 'Raleway', sans-serif;
+    Body:  font-family: 'Source Sans Pro', sans-serif;
+    
+*/
+
+body {
+    background-color: #EAE7DC;
+    color: #8E8D8A;
+}
+
+nav {
+    background-color: #EAE7DC; 
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    color: #8E8D8A;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #E85A4F;
+}
+
+.dropdown-menu {
+    background-color: #D8C3A5;
+    color: #E98074;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 980px;
+}
+
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.parallax1 { 
+    background-image: url("../images/andrew-neel-308138-unsplash.jpg");
+    position: relative;
+    height: 750px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 { 
+    background-image: url("../images/florian-olivo-1169467-unsplash.jpg");
+    position: relative;
+    height: 750px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 { 
+    background-image: url("../images/julian-christian-anderson-1131542-unsplash.jpg");
+    position: relative;
+    height: 750px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span {
+    background-color: transparent;
+    color: white;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+
